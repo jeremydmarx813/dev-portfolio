@@ -2,25 +2,23 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
-  description: '', // e.g: Welcome to my website
+  title: 'Jeremy Marx | Portfolio', // e.g: 'Name | Developer'
+  lang: 'en', // e.g: en, es, fr, jp
+  description: 'Developer Portfolio for Jeremy Marx', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
-  subtitle: '',
-  cta: '',
+  name: 'Jeremy Marx',
+  subtitle: 'Junior JavaScript Developer',
+  cta: 'Learn More',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'profile.jpg',
-  paragraphOne: '',
-  paragraphTwo: '',
-  paragraphThree: '',
+  paragraphOne: 'After several years of freelance music performance and instruction in the New Orleans area, I have begun my journey as a JavaScript Web Developer.',
+  paragraphTwo: 'I have completed the curriculum of Web Development on Codecademy, gone through the bootcamp phase of the program at Operation Spark, and recently completed the JavaScript App Development course at Tech Talent South.',
   resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
