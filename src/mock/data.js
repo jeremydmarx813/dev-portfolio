@@ -26,12 +26,12 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
-    url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    img: 'jammingImg.png',
+    title: 'Jamming',
+    info: 'Capstone Project for React Unit of Codecademy Web Development Career Path Certificate.  Design boiler plate provided.',
+    info2: 'I refactored and set up The Context API for Global State and added the logo at the top, clearing the search bar. Deployed using Surge.sh',
+    url: 'http://jamming-codecademy.surge.sh/',
+    repo: 'https://github.com/jeremydmarx813/jamming-codecademy-project', 
   },
   {
     id: nanoid(),
