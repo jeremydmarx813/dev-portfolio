@@ -66,9 +66,9 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: '',
-  btn: '',
-  email: '',
+  cta: 'Would you like to work with me? Awesome!',
+  btn: 'Email me!',
+  email: 'jeremydmarx@gmail.com',
 };
 
 // FOOTER DATA
