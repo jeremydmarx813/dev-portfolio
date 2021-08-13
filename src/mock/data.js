@@ -32,16 +32,17 @@ export const projectsData = [
     info2: 'Next features to be added are styling and React Router to get more information on individual stocks.',
     url: 'https://stock-shares-via-polygon.herokuapp.com',
     repo: 'https://github.com/jeremydmarx813/mern-heroku-test', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'jammmingImg.jpg',
-    title: 'Jammming',
-    info: 'Capstone Project for React Unit of Codecademy Web Development Career Path Certificate.  Design boiler plate provided.',
-    info2: 'I refactored and set up The Context API for Global State and added the logo at the top, clearing the search bar. Deployed using Surge.sh',
-    url: 'https://spotify-playlist-make-cc.herokuapp.com/',
-    repo: 'https://github.com/jeremydmarx813/jamming-codecademy-project', 
   }
+  // ,
+  // {
+  //   id: nanoid(),
+  //   img: 'jammmingImg.jpg',
+  //   title: 'Jammming',
+  //   info: 'Capstone Project for React Unit of Codecademy Web Development Career Path Certificate.  Design boiler plate provided.',
+  //   info2: 'I refactored and set up The Context API for Global State and added the logo at the top, clearing the search bar. Deployed using Surge.sh',
+  //   url: 'https://spotify-playlist-make-cc.herokuapp.com/',
+  //   repo: 'https://github.com/jeremydmarx813/jamming-codecademy-project', 
+  // }
   // ,
   // {
   //   id: nanoid(),
