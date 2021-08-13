@@ -24,24 +24,34 @@ export const aboutData = {
 
 // PROJECTS DATA
 export const projectsData = [
+   {
+    id: nanoid(),
+    img: 'dailystockherokuscreenshot1.jpg',
+    title: 'Daily Stock Updates',
+    info: 'Simple React app with an Express.js server.  Uses third party API Polygon.io for stock information. Deployed to Heroku via GitHub.',
+    info2: 'Next features to be added are styling and React Router to get more information on individual stocks.',
+    url: 'https://stock-shares-via-polygon.herokuapp.com',
+    repo: 'https://github.com/jeremydmarx813/mern-heroku-test', // if no repo, the button will not show up
+  },
   {
     id: nanoid(),
     img: 'jammingImg.png',
-    title: 'Jamming',
+    title: 'Jammming',
     info: 'Capstone Project for React Unit of Codecademy Web Development Career Path Certificate.  Design boiler plate provided.',
     info2: 'I refactored and set up The Context API for Global State and added the logo at the top, clearing the search bar. Deployed using Surge.sh',
     url: 'http://jamming-codecademy.surge.sh/',
     repo: 'https://github.com/jeremydmarx813/jamming-codecademy-project', 
-  },
-  {
-    id: nanoid(),
-    img: 'triadPair.png',
-    title: 'Random Triad Pair Generator',
-    info: 'Small webpage to generate random combinations of a certain scale for musicians to practice.',
-    info2: 'Made from scratch with HTML, CSS, vanilla JS, and Node. Deployed to Heroku.',
-    url: 'https://stark-caverns-55248.herokuapp.com/',
-    repo: 'https://github.com/jeremydmarx813/random-triad-pair-generator',
-  },
+  }
+  // ,
+  // {
+  //   id: nanoid(),
+  //   img: 'triadPair.png',
+  //   title: 'Random Triad Pair Generator',
+  //   info: 'Small webpage to generate random combinations of a certain scale for musicians to practice.',
+  //   info2: 'Made from scratch with HTML, CSS, vanilla JS, and Node. Deployed to Heroku.',
+  //   url: 'https://stark-caverns-55248.herokuapp.com/',
+  //   repo: 'https://github.com/jeremydmarx813/random-triad-pair-generator',
+  // },
   // {
   //   id: nanoid(),
   //   img: 'project.jpg',
@@ -51,6 +61,7 @@ export const projectsData = [
   //   url: '',
   //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   // },
+
 ];
 
 // CONTACT DATA
